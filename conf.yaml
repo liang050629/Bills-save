@@ -4,23 +4,24 @@ email:
   # 用于处理账单邮件的邮箱
   server:
     #中转邮箱地址
-    address: ''
+    address: 'outlook.office365.com'
     # 邮箱密钥，使用POP3协议，注意使用相应的密钥
-    password: ''
+    password: 'hbpscntrwwytmkxk'
+ 
     # 收取邮件间隔，单位秒
     interval: 60
 
   # 用于发送密码和接收状态的邮箱
   # 目的邮箱地址
-  user_address: ''
+  user_address: '385797170@qq.com'
   # 在读取邮件后删除邮件(你没用哩!)，防止邮箱一堆邮件，可选 True, False
   delete_after_used: False
 
 # Notion API 的相关数据，可以参考 https://zhuanlan.zhihu.com/p/679456951
 notion:
   # 填写你的数据库id，在网页中打开你的数据库页面，看到 url 中形如 https://www.notion.so/a?v=b&pvs=c，其中 a 的部分就是我们要的 id
-  database_id: ''
+  database_id: '14127ae4f25e80be9c32fd5d6f2afcee'
   # Notion 集成的密钥
-  token: ''
+  token: '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'
   # 父页面类型，为数据库使用请使用 'database_id'
   type: 'database_id'
